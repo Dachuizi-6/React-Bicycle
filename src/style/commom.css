@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+.container .nav-left {
+  width: 15%;
+  min-width: 180px;
+  height: calc(100vh);
+}
+.container .main {
+  flex: 1;
+  height: calc(100vh);
+}
+.container .main .content {
+  position: relative;
+  padding: 20px;
+}

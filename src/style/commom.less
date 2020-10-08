@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  // 宽度的计算本来栅格系统已经帮我们做好了，再来display设置一下，怕将来宽度不够，保险一点
+  .nav-left {
+    width: 15%;
+    min-width: 180px;
+    height: calc(100vh);
+    // background-color: skyblue;
+  }
+  .main {
+    flex: 1;
+    height: calc(100vh);
+    .content {
+      position: relative;
+      padding: 20px;
+    }
+  }
+}
